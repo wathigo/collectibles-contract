@@ -1,0 +1,13 @@
+{
+  "name": "collectibles-contract",
+  "version": "1.0.0",
+  "description": "A smart contract to sell collectibles(old coins) on near blockchain network.",
+  "main": "index.js",
+  "repository": "https://github.com/wathigo/collectibles-contract.git",
+  "author": "wathigo <wathigosimon@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
