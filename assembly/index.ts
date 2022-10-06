@@ -2,7 +2,7 @@ import { Coin, listedCoins } from './model';
 
 import { ContractPromiseBatch, context } from 'near-sdk-as';
 
-export function setProduct(coin: Coin): void {
+export function setCoin(coin: Coin): void {
     let storedCoin = listedCoins.get(coin.id);
     if (storedCoin !== null) {
         throw new Error(`a coin with ${coin.id} already exists`);
