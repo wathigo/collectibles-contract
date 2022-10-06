@@ -39,3 +39,11 @@ export function deleteCoin(coinId: string): void {
         listedCoins.delete(coinId);
     }
 }
+
+export function clearListing(): void {
+    listedCoins.clear();
+}
+
+export function entriesLength(): i32 {
+    return listedCoins.length;
+}
